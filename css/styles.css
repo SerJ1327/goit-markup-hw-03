@@ -14,6 +14,42 @@
   --font-logo: Raleway, sans-serif;
 }
 
+/* -------------RESET STYLES-----------  */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
 /* ---------UNIVERSAL CLASSES-------- */
 a.link-active {
   color: var(--present-state-color);
@@ -55,16 +91,6 @@ a.link-active {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.04em;
-}
-
-.header-link:hover {
-  color: var(--present-state-color);
-}
-
-.header-link:focus,
-.header-adress-link:focus,
-.header-adress-link:hover {
-  color: var(--present-state-color);
 }
 
 .container {
@@ -129,6 +155,16 @@ body {
   font-weight: 500;
   color: var(--dark-color);
   min-width: 153px;
+}
+
+.header-link:hover {
+  color: var(--present-state-color);
+}
+
+.header-link:focus,
+.header-adress-link:focus,
+.header-adress-link:hover {
+  color: var(--present-state-color);
 }
 
 .header-adress {
